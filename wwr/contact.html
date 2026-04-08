@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description"
+      content="Contact The Rafting Company with questions, reservations, or feedback. We'd love to hear from you.">
+    <meta name="author" content="Jonah Vimahi">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/z-downriver-logo.png" alt="WWR Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+
+        <!-- Centered company info -->
+        <section class="company-info">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <!-- Map left, Form right -->
+        <section class="map-form">
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.123456789!2d-114.9363!3d44.2166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDEzJzAwLjAiTiAxMTTCsDU2JzEwLjciVw!5e0!3m2!1sen!2sus!4v1617000000000"
+                  width="400" height="400" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" title="Our Location">
+                </iframe>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-row">
+                    <label>Message Purpose</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="purpose" value="general" required> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="website"> Website
+                            Suggestion</label>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="./images/happy-guy.jpg" alt="Photo of Marcus Webb">
+                    <figcaption>Marcus Webb<br><em>Head Guide</em></figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/happy-guy.jpg" alt="Photo of Priya Nolan">
+                    <figcaption>Priya Nolan<br><em>Safety Director</em></figcaption>
+                </figure>
+                <figure>
+                    <img src="./images/happy-guy.jpg" alt="Photo of Dana Cruz">
+                    <figcaption>Dana Cruz<br><em>Customer Experience Manager</em></figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>©️ 2026 | The Rafting Company | Jonah Vimahi</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="./images/facebook-square.svg" alt="Facebook logo"></a>
+            <a href="https://pinterest.com" target="_blank">
+                <img src="./images/pinterest-square.png" alt="Pinterest logo"></a>
+            <a href="https://youtube.com" target="_blank">
+                <img src="./images/youtube-square.svg" alt="YouTube logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
